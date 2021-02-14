@@ -63,13 +63,42 @@ width: 100%;
 
 .grid{
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 20px;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
 .showcase-form{
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+margin: 10px;;
+color: black;
+top: 60px;
+position: relative;
+height: 350px;
+width: 400px;
+z-index: 100;
+justify-self: end;
+}
 
+.showcase-form .form-control {
+    margin: 10px 0;
+}
+
+.showcase-form input[type='text']{
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 3px;
+}
+
+.showcase-form input[type='email']{
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 3px;
 }
