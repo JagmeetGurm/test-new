@@ -50,10 +50,26 @@ width: 100%;
 }
 
 .showcase{
-    display: grid;
+    height: 400px;
+    background-color: #047aed;
+    color: white;
+    
 }
 
 .showcase a{
     text-decoration: none;
-    color: #333;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.showcase-form{
+
 }
